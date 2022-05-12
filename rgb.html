@@ -1,0 +1,20 @@
+<html>
+ <head>
+  <script Language="JavaScript">
+   function red()
+    {document.location="/cgi-bin/red.cgi";}
+   function green()
+    {document.location="/cgi-bin/green.cgi";}
+   function blue()
+    {document.location="/cgi-bin/blue.cgi";}
+   function off()
+    {document.location="/cgi-bin/off.cgi";}
+  </script>
+ </head>
+ <body>
+   <img src="red.jpg" onpointerdown="red()">
+   <img src="green.jpg" onpointerdown="green()">
+   <img src="blue.jpg" onpointerdown="blue()">
+   <img src="off.jpg" onpointerdown="off()">
+ </body>
+</html>
